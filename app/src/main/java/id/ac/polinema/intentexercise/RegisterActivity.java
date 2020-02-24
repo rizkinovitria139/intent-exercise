@@ -3,6 +3,7 @@ package id.ac.polinema.intentexercise;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 
 import com.mobsandgeeks.saripaar.annotation.ConfirmPassword;
@@ -37,5 +38,8 @@ public class RegisterActivity extends AppCompatActivity {
         confirmPasswordEditText = findViewById(R.id.text_confirm_password);
         homePage = findViewById(R.id.text_homepage);
         aboutYou = findViewById(R.id.text_about);
+    }
+
+    public void handleRegister(View view) {
     }
 }
